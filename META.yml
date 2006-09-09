@@ -1,0 +1,20 @@
+---
+name: File-RandomLine
+version: 0.15
+author:
+  - David A Golden <dagolden@cpan.org>
+abstract: Retrieve random lines from a file
+license: perl
+requires:
+  Want: 0.08
+  perl: 5.006
+build_requires:
+  File::Spec: 0.87
+  Test::Exception: 0.2
+  Test::More: 0.6
+  Test::Warn: 0.08
+provides:
+  File::RandomLine:
+    file: lib/File/RandomLine.pm
+    version: 0.15
+generated_by: Module::Build version 0.2701

@@ -1,0 +1,21 @@
+Revision history for Perl module File::RandomLine
+
+0.15 Thu Jun  9 07:27:21 EDT 2005
+    - removed pod/podcoverage tests to minimize dependencies
+
+0.14 Tue Jun  7 18:00:45 EDT 2005
+    - updated Build.PL for dependencies
+    - changed Makefile compatibility to traditional
+
+0.13 Wed Mar  9 06:51:00 EST 2005
+    - added pod and pod coverage tests
+    
+0.12 Mon Jan 31 23:22:21 EST 2005
+    - fixed up an out of date README in the t directory
+
+0.11 Mon Jan 31 15:14:36 EST 2005
+    - added support for optional slow, uniform probability algorithm
+
+0.10 Sun Jan 30 16:16:34 EST 2005
+    - initial public release
+
