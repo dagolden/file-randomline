@@ -14,6 +14,7 @@ Module::Build->new
           File::Spec => 0.87, # (0.6 since perl 5.005, 0.87 since perl 5.008003)
           Test::Exception => 0.20,
           Test::More => 0.6, # (0.41 since perl 5.007003, 0.6 is new)
+          Test::MockRandom => 0.97,
           Test::Warn => 0.08,
       },
 	)->create_build_script;

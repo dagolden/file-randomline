@@ -7,6 +7,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'File::Spec' => '0.87',
                            'Test::Exception' => '0.2',
+                           'Test::MockRandom' => '0.97',
                            'Test::More' => '0.6',
                            'Test::Warn' => '0.08',
                            'Want' => '0.08'

@@ -1,5 +1,8 @@
 Revision history for Perl module File::RandomLine
 
+0.16 Sun Jul 17 23:53:22 EDT 2005
+    - updated Build.PL for dependencies
+
 0.15 Thu Jun  9 07:27:21 EDT 2005
     - removed pod/podcoverage tests to minimize dependencies
 

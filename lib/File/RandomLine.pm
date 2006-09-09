@@ -3,7 +3,7 @@ use 5.006;
 use strict;
 use warnings;
 use Carp;
-our $VERSION = "0.15";
+our $VERSION = "0.16";
 
 # Required modules
 use Want 'howmany';

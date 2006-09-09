@@ -41,7 +41,8 @@ DESCRIPTION
     random lines with uniform probability.
 
 USAGE
-  "new"
+  `new'
+
      $rl = File::RandomLine->new( "filename" );
      $rl = File::RandomLine->new( "filename", { algorithm => "uniform" } );
 
@@ -53,14 +54,15 @@ USAGE
     lines with true uniform probability for each line. This can be
     significantly slower on large files.
 
-  "next"
+  `next'
+
      $line = $rl->next();
      @lines = $rl->next(5);
      ($line1, $line2, $line3) = $rl->next();
 
     Returns one or more lines from the file. Without parameters, returns a
     single line if called in scalar context. With a positive integer
-    parameter, returns a list with the specified number of lines. "next"
+    parameter, returns a list with the specified number of lines. `next'
     also has some magic if called in list context with a finite length list
     of l-values and will return the proper number of lines.
 
