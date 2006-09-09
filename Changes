@@ -1,5 +1,8 @@
 Revision history for Perl module File::RandomLine
 
+0.18 Thu Jul 20 12:23:00 EDT 2006
+    - added pod/coverage tests
+
 0.17 Mon Aug  1 11:06:59 EDT 2005
     - build_requires to requires to work around CPANPLUS bug
 

@@ -1,10 +1,16 @@
 ---
 name: File-RandomLine
-version: 0.17
+version: !!perl/hash:Module::Build::Version
+  original: 0.18
+  version:
+    - 0
+    - 180
 author:
-  - David A Golden <dagolden@cpan.org>
+  - 'David A Golden <dagolden@cpan.org>'
 abstract: Retrieve random lines from a file
 license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
   File::Spec: 0.87
   Test::Exception: 0.2
@@ -16,5 +22,8 @@ requires:
 provides:
   File::RandomLine:
     file: lib/File/RandomLine.pm
-    version: 0.17
-generated_by: Module::Build version 0.2702
+    version: 0.18
+generated_by: Module::Build version 0.2804
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

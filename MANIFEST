@@ -1,5 +1,6 @@
 Build.PL
 Changes
+INSTALL
 lib/File/RandomLine.pm
 LICENSE
 Makefile.PL
@@ -9,6 +10,8 @@ META.yml
 README
 t/01-fast-algorithm.t
 t/02-uniform-algorithm.t
+t/98_pod.t
+t/99_pod_coverage.t
 t/longer_test.pt
 t/minimal_test.pt
 t/not_readable.txt

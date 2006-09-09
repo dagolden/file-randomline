@@ -2,18 +2,18 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
+          'PL_FILES' => {},
+          'INSTALLDIRS' => 'site',
           'NAME' => 'File::RandomLine',
+          'EXE_FILES' => [],
           'VERSION_FROM' => 'lib/File/RandomLine.pm',
           'PREREQ_PM' => {
-                           'File::Spec' => '0.87',
-                           'Test::Exception' => '0.2',
-                           'Test::MockRandom' => '0.97',
                            'Test::More' => '0.6',
+                           'Want' => '0.08',
                            'Test::Warn' => '0.08',
-                           'Want' => '0.08'
-                         },
-          'INSTALLDIRS' => 'site',
-          'EXE_FILES' => [],
-          'PL_FILES' => {}
+                           'Test::Exception' => '0.2',
+                           'File::Spec' => '0.87',
+                           'Test::MockRandom' => '0.97'
+                         }
         )
 ;
