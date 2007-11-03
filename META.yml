@@ -1,10 +1,6 @@
 ---
 name: File-RandomLine
-version: !!perl/hash:Module::Build::Version
-  original: 0.18
-  version:
-    - 0
-    - 180
+version: 0.19
 author:
   - 'David A Golden <dagolden@cpan.org>'
 abstract: Retrieve random lines from a file
@@ -22,8 +18,8 @@ requires:
 provides:
   File::RandomLine:
     file: lib/File/RandomLine.pm
-    version: 0.18
-generated_by: Module::Build version 0.2804
+    version: 0.19
+generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2

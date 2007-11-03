@@ -3,7 +3,7 @@ use 5.006;
 use strict;
 use warnings;
 use Carp;
-our $VERSION = "0.18";
+our $VERSION = '0.19';
 
 # Required modules
 use Want 'howmany';
@@ -15,6 +15,10 @@ use Want 'howmany';
 =head1 NAME
 
 File::RandomLine - Retrieve random lines from a file
+
+=head1 VERSION
+
+This documentation refers to version 0.19
 
 =head1 SYNOPSIS
 
