@@ -31,7 +31,7 @@ sub new {
     croak "new requires a filename parameter" unless $filename;
     my $algo = $args->{algorithm} || q{};
     croak "unknown algorithm '$algo'" if $algo && $algo !~ /fast|uniform/i;
-    open(my $fh, $filename) or croak "Can't read $filename";
+    open(my $fh, "<", $filename) or croak "Can't read $filename";
     my $line_index = lc $algo eq 'uniform' ? _index_file($fh) : undef ;
     my $filesize = -s $fh;
     my $self = { 

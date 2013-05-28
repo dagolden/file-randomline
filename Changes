@@ -10,6 +10,8 @@ Revision history for Perl module File::RandomLine
 
     - Distribution managed with Dist::Zilla now
 
+    - Fixed up perlcritic lint
+
 0.19 Sat Nov  3 00:23:09 EDT 2007
     - fix up badly formatted META.yml
 
