@@ -29,7 +29,7 @@ probability for each line.  This can be significantly slower on large files.
 sub new {
 	my ($class, $filename, $args) = @_;
     croak "new requires a filename parameter" unless $filename;
-    my $algo = $args->{algorithm};
+    my $algo = $args->{algorithm} || q{};
     croak "unknown algorithm '$algo'" if $algo && $algo !~ /fast|uniform/i;
     open(my $fh, $filename) or croak "Can't read $filename";
     my $line_index = lc $algo eq 'uniform' ? _index_file($fh) : undef ;

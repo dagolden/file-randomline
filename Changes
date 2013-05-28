@@ -2,6 +2,10 @@ Revision history for Perl module File::RandomLine
 
 {{$NEXT}}
 
+    [FIXED]
+
+    - Fixed undef warning on lc() call
+
     [CHANGED]
 
     - Distribution managed with Dist::Zilla now
