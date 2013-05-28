@@ -2,6 +2,8 @@ Revision history for Perl module File::RandomLine
 
 {{$NEXT}}
 
+0.20      2013-05-28 13:25:45 America/New_York
+
     [FIXED]
 
     - Fixed undef warning on lc() call
